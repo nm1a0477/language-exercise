@@ -1,0 +1,11 @@
+num=int(input("enter a value is: "))
+sum=0
+temp=num
+while(temp!=0):
+    r=temp%10
+    sum+=r*r*r 
+    temp=temp//10
+if sum==num:
+    print("the given number is armstong number")
+else:
+    print("not")
