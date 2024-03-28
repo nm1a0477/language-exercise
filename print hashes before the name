@@ -1,0 +1,7 @@
+n="mo#un#i#k#a#"
+count=n.count('#')
+print(count)
+m=n.replace("#","")
+print(m)
+n=(count*'#'+m)
+print(n)
