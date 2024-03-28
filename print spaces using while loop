@@ -1,0 +1,6 @@
+text='Newyork is in USA'
+i=0
+while(i<len(text)):
+    letter=text[i]
+    print(letter,end=' ')
+    i+=1
