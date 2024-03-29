@@ -1,0 +1,13 @@
+def swap(a,b):
+	a=a+b
+	b=a-b
+	a=a-b
+	print("after swap")
+	print("a=",a)
+	print("b=",b)
+a=int(input("enter a"))
+b=int(input("enter b"))
+print("before swap")
+print("a=",a)
+print("a=",b)
+swap(a,b)
