@@ -1,0 +1,6 @@
+def name(firstname,surname):
+	x=firstname+' '+surname
+	print(x)
+firstname='Mounika'
+surname='Konathala'
+name(firstname,surname)
