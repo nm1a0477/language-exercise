@@ -1,0 +1,8 @@
+def example1():
+    for i in range(5):
+        print("mouni",end=' ')
+def example2():
+    for i in range(5):
+        print(i,end=' ')
+example2()
+example1()
