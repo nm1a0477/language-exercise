@@ -1,0 +1,5 @@
+ame=str(input("enter the name:"))
+i=len(name)-1
+while(i>=0):
+    print(name[i],end=' ')
+    i=i-1
