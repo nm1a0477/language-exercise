@@ -1,0 +1,8 @@
+rows = 5
+ch='A'
+print(ch)
+for i in range(1,rows):
+    for j in range(0,i+1):
+        ch=chr(ord(ch)+1)
+        print(ch,end=' ')
+    print()
