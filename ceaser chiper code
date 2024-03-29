@@ -1,0 +1,6 @@
+str1='danger'
+i=0
+while i<len(str1):
+    l=str1[i]
+    print(chr(ord(l)+1),end=' ')
+    i+=1
